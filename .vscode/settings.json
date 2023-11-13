@@ -1,0 +1,17 @@
+{
+    "python.terminal.activateEnvironment": true,
+    "python.defaultInterpreterPath": ".venv/bin/python",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=120"
+    ],
+    "files.watcherExclude": {
+        "**/.venv**/**": true,
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true
+    }
+}
